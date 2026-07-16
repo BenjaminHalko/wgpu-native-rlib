@@ -39,7 +39,7 @@ package = "naga"
 version = "29.0.1"
 
 [lib]
-crate-type = ["cdylib", "staticlib"]
+crate-type = ["cdylib", "staticlib", "rlib"]
 
 [features]
 default = ["wgsl", "spirv", "glsl", "dx12", "metal", "vulkan", "gles"]
